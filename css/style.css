@@ -1,0 +1,136 @@
+/*-------------------------
+DOCUMENT
+-------------------------*/
+
+
+body {
+  background: #fafafa;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  color: #333538;
+}
+
+.page-content {
+  padding:20px;
+}
+
+.disable-text-selection {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*-------------------------
+CARDs
+----------------------------*/
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('https://getmdl.io/assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.likedTrue {
+  color: #F16B6F;
+  font-weight: bold;
+}
+
+.image-upload {
+  cursor:copy;
+}
+
+.prettyprint * {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/*-------------------------
+DATASET DETAIL
+---------------------------*/
+.meta-data{
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: rgba(231, 233, 237, 0.4);
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+/*-------------------------
+HEADER
+-------------------------*/
+
+
+.demo-layout-transparent {
+  background: url('') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+/*--------------------------
+COMPANY CARD
+--------------------------*/
+.demo-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: url('../assets/demos/image_card.jpg') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*-----------------------
+DATASETS DROPDOWN
+-----------------------*/
+.dropdown-header {
+    display: block;
+    margin: 0em;
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.dropdown-description {
+  display: block;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.14285714em;
+}
+
+/*----------------------
+SEARCH BOX
+-----------------------*/
+
+.ui.search .prompt {
+    border-radius: 0rem !important;
+}
+
+
+/*----------------------
+DATA TABLE STYLE
+------------------------*/
+.dataTablePadding {
+  border-collapse: separate !important;
+  border-spacing: 5px 0 !important;
+}
+
+.datatableheader th:nth-child(n+2) {
+  border-radius: 15px 15px 0 0 !important;
+  padding-right:10px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
