@@ -1,0 +1,12 @@
+<div class="ui column">
+	<h4>{{category.meta.name}}</h4>
+	<div class="ui selection list">
+	  <div class="item" ng-repeat="dataset in category.datasets" ng-click="go(dataset.datasetId)">
+	  <i class="ui {{dataset.icon}} icon"></i>
+	    <div class="content">
+	      <div class="header">{{dataset.name}}</div>
+	      <div class="description">{{dataset.description}}</div>
+	    </div>
+	  </div>
+	</div>
+</div>

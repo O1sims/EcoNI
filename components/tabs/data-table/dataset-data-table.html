@@ -1,0 +1,46 @@
+<div class="ui bottom attached tab segment" ng-class="{ active: activeTab('data', currentTab()) }">
+	<div class="ui container">
+
+		<div class="ui two column stackable grid">
+			<div class="column">
+				<div class="ui meta-data">
+					<div class="ui top left label">Data table</div>
+					
+						<download-dropdown title="Download" ng-model="dropdown_model">
+						    <download-dropdown-group ng-click="downloadXLSX(dataset.data,dataset.meta.name)"><i class="file excel outline icon"></i>Excel</download-dropdown-group>
+						    <download-dropdown-group ng-click="downloadCSV(dataset.data,dataset.meta.name)"><i class="browser icon"></i>CSV</download-dropdown-group>
+						    <download-dropdown-group ng-click="downloadJSON(dataset.data,dataset.meta.name)"><i class="file code outline icon"></i>JSON</download-dropdown-group>
+						</download-dropdown>
+					
+					 <table class="ui very basic small unstackable collapsing table dataTablePadding">
+					 	<thead class="datatableheader">
+					 		<tr>
+						 		<th ng-repeat="column in printTableColumns" ng-style="{'background-color': column.color}" style="max-width:100px !important; vertical-align: bottom;">
+						           	<span style="max-width:100px !important;">{{ column.value }}</span>
+							    </th>
+					 		</tr>
+					 	</thead>
+					 	<tbody class="datatablebody">
+					 		<tr ng-repeat="row in printTableRows">
+						 		<td ng-repeat="item in row" ng-style="{'background-color': item.color}">{{ item.value }}</td>
+					 		</tr>
+					 	</tbody>
+					 </table>
+				</div>
+			</div>
+			<div class="column">
+				<div class="meta-data">
+					<a class="ui top left image label">
+						JSON
+						<div class="detail" data-tooltip="JSON is a code-friendly data format." data-position="bottom left">
+							<i class="help circle outline icon"></i>
+						</div>
+					</a>
+					<button class="ui right floated basic button" ngclipboard data-clipboard-target="#json"><i class="copy icon"></i>Copy</button>
+					<pre id="json" class="prettyprint">
+					{{ printJson(dataset.data) }}</pre>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
