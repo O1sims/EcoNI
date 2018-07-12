@@ -1,0 +1,23 @@
+<div class="ui stackable grid">
+	<div class="ui three wide column">
+		<dataset-series ng-repeat="series in selectedValueKeyNames"></dataset-series>
+	</div>
+
+	<div class="ui ten wide column">
+		<canvas id="line" class="chart chart-line"
+		  chart-data="dataset.chart.values" chart-series="dataset.chart.series" chart-dataset-override="dataset.override" chart-colors="dataset.chart.colors" chart-labels="dataset.chart.labels" chart-options="dataset.options" ng-if="dataset.chart.values[0]">
+		</canvas>
+		
+		<h2 class="ui center aligned icon header" ng-if="!dataset.chart.values[0]">
+		  <i class="battery empty grey icon"></i>
+		  <div class="content">
+		    No data
+		    <div class="sub header">Select a data series to see a nice wee chart.</div>
+		  </div>
+		</h2>
+	</div>
+
+	<div class="ui three wide column">
+		<dataset-meta></dataset-meta>
+	</div>
+</div>

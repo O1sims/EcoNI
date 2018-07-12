@@ -1,0 +1,13 @@
+<h4 class="ui horizontal divider header">
+  Datasets by category
+</h4>
+<div class="ui stackable three column divided grid segment" ng-controller="datasets">
+  <div class="row">
+    <div class="column" style="padding-left: 1em !important;" ng-repeat="category in categories">
+      <h4 class="ui header">{{category.meta.name}}</h4>
+      <div class="ui link list">
+        <a class="item" ng-repeat="dataset in category.datasets" ng-click="go(dataset.datasetId)">{{dataset.name}}</a>
+      </div>
+    </div>
+  </div>
+</div>
