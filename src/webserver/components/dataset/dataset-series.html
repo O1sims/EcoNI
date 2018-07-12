@@ -1,0 +1,8 @@
+<div class="field">
+	<div class="ui checked checkbox" ng-mouseover="toggleHoverSeries(series,'on')" ng-mouseleave="toggleHoverSeries(series,'off')" ng-click="toggleSelectedValueKeyName(series.name)">
+	  <input type="checkbox" ng-checked="series.displayed">
+	  <label>
+	  	<a class="ui small label" ng-style="{ 'background-color': series.color }">{{series.name}}</a>
+	  </label>
+	</div>
+</div>

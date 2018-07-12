@@ -1,0 +1,32 @@
+<div class="ui card">
+  <div class="content" style="padding-left:0px;padding-bottom:0px;">
+    <!-- <canvas id="line" class="chart chart-line" chart-data="dataset.chart.values"  chart-labels="dataset.chart.labels" chart-options="dataset.options"> -->
+
+      <canvas id="line" class="chart chart-line"
+      chart-data="dataset.chart.values" chart-series="dataset.chart.series" chart-dataset-override="dataset.override" chart-colors="dataset.chart.colors" chart-labels="dataset.chart.labels" chart-options="dataset.options">
+
+	</canvas>
+  </div>
+  <div class="content">
+    <a class="header" ng-click="go(dataset, 'overview')">{{dataset.meta.name}}</a>
+    <div class="meta">
+	    <span class="right floated"><div class="ui mini blue label">{{dataset.meta.category}}</div></span>
+        <span class="category">{{dataset.meta.publisher}}</span>
+    </div>
+    <div class="description">
+      {{dataset.meta.description}}
+    </div>
+  </div>
+  <div class="extra content">
+	<a class="ui mini label" ng-click="go(dataset, 'overview')">
+	  <i class="search icon"></i> Overview
+	</a>
+    <a class="ui mini basic label" ng-click="go(dataset, 'data')">
+    <i class="table icon"></i>
+    Data table
+    </a>
+	<a class="ui mini basic label" ng-click="go(dataset, 'integrate')">
+    	<i class="configure icon"></i>Integrate
+    </a>
+  </div>
+</div>
