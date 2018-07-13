@@ -1,0 +1,200 @@
+[
+  {
+    "Year": 1984,
+    "Unemployment": "16.8",
+    "Economically Active": "71.0",
+    "Employed": "58.9"
+  },
+  {
+    "Year": 1985,
+    "Unemployment": "16.4",
+    "Economically Active": "70.6",
+    "Employed": "58.8"
+  },
+  {
+    "Year": 1986,
+    "Unemployment": "15.8",
+    "Economically Active": "72.0",
+    "Employed": "60.4"
+  },
+  {
+    "Year": 1987,
+    "Unemployment": "15.2",
+    "Economically Active": "70.8",
+    "Employed": "59.8"
+  },
+  {
+    "Year": 1988,
+    "Unemployment": "13.9",
+    "Economically Active": "72.1",
+    "Employed": "61.9"
+  },
+  {
+    "Year": 1989,
+    "Unemployment": "12.6",
+    "Economically Active": "72.3",
+    "Employed": "63.0"
+  },
+  {
+    "Year": 1990,
+    "Unemployment": "11.6",
+    "Economically Active": "72.8",
+    "Employed": "64.1"
+  },
+  {
+    "Year": 1991,
+    "Unemployment": "12.2",
+    "Economically Active": "73.1",
+    "Employed": "64.0"
+  },
+  {
+    "Year": 1992,
+    "Unemployment": "13",
+    "Economically Active": "72",
+    "Employed": "63"
+  },
+  {
+    "Year": 1993,
+    "Unemployment": "13",
+    "Economically Active": "72",
+    "Employed": "62"
+  },
+  {
+    "Year": 1994,
+    "Unemployment": "13",
+    "Economically Active": "72",
+    "Employed": "61"
+  },
+  {
+    "Year": 1995,
+    "Unemployment": "10.9",
+    "Economically Active": "69.1",
+    "Employed": "61.4"
+  },
+  {
+    "Year": 1996,
+    "Unemployment": "10.6",
+    "Economically Active": "70.1",
+    "Employed": "62.5"
+  },
+  {
+    "Year": 1997,
+    "Unemployment": "8.1",
+    "Economically Active": "71.5",
+    "Employed": "65.6"
+  },
+  {
+    "Year": 1998,
+    "Unemployment": "7.0",
+    "Economically Active": "70.7",
+    "Employed": "65.7"
+  },
+  {
+    "Year": 1999,
+    "Unemployment": "7.6",
+    "Economically Active": "70.6",
+    "Employed": "65.1"
+  },
+  {
+    "Year": 2000,
+    "Unemployment": "6.7",
+    "Economically Active": "68.3",
+    "Employed": "63.7"
+  },
+  {
+    "Year": 2001,
+    "Unemployment": "6.0",
+    "Economically Active": "70.2",
+    "Employed": "65.9"
+  },
+  {
+    "Year": 2002,
+    "Unemployment": "5.5",
+    "Economically Active": "70.1",
+    "Employed": "66.1"
+  },
+  {
+    "Year": 2003,
+    "Unemployment": "5.1",
+    "Economically Active": "71.3",
+    "Employed": "67.6"
+  },
+  {
+    "Year": 2004,
+    "Unemployment": "5.0",
+    "Economically Active": "68.8",
+    "Employed": "65.4"
+  },
+  {
+    "Year": 2005,
+    "Unemployment": "4.9",
+    "Economically Active": "70.4",
+    "Employed": "66.9"
+  },
+  {
+    "Year": 2006,
+    "Unemployment": "4.2",
+    "Economically Active": "71.2",
+    "Employed": "68.3"
+  },
+  {
+    "Year": 2007,
+    "Unemployment": "3.6",
+    "Economically Active": "71.5",
+    "Employed": "68.9"
+  },
+  {
+    "Year": 2008,
+    "Unemployment": "3.9",
+    "Economically Active": "71.5",
+    "Employed": "68.7"
+  },
+  {
+    "Year": 2009,
+    "Unemployment": "6.5",
+    "Economically Active": "68.5",
+    "Employed": "64.0"
+  },
+  {
+    "Year": 2010,
+    "Unemployment": "6.6",
+    "Economically Active": "71.1",
+    "Employed": "66.3"
+  },
+  {
+    "Year": 2011,
+    "Unemployment": "7.3",
+    "Economically Active": "73.2",
+    "Employed": "67.7"
+  },
+  {
+    "Year": 2012,
+    "Unemployment": "7.8",
+    "Economically Active": "72.6",
+    "Employed": "66.8"
+  },
+  {
+    "Year": 2013,
+    "Unemployment": "7.5",
+    "Economically Active": "71.6",
+    "Employed": "66.1"
+  },
+  {
+    "Year": 2014,
+    "Unemployment": "6.7",
+    "Economically Active": "73.2",
+    "Employed": "68.1"
+  },
+  {
+    "Year": 2015,
+    "Unemployment": "6.5",
+    "Economically Active": "72.5",
+    "Employed": "67.7"
+  },
+  {
+    "Year": 2016,
+    "Unemployment": "6.0",
+    "Economically Active": "73.6",
+    "Employed": "69.0"
+  }
+]

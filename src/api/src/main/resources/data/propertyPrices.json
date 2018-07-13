@@ -1,0 +1,324 @@
+[
+  {
+    "Period": "2005 Q1",
+    "Detached Property": 160429,
+    "Semi-Detached Property": 104031,
+    "Terrace Property": 82022,
+    "Apartment Property": 100738
+  },
+  {
+    "Period": "2005 Q2",
+    "Detached Property": 169687,
+    "Semi-Detached Property": 109617,
+    "Terrace Property": 83227,
+    "Apartment Property": 97660
+  },
+  {
+    "Period": "2005 Q3",
+    "Detached Property": 180697,
+    "Semi-Detached Property": 115048,
+    "Terrace Property": 89825,
+    "Apartment Property": 102237
+  },
+  {
+    "Period": "2005 Q4",
+    "Detached Property": 185324,
+    "Semi-Detached Property": 119854,
+    "Terrace Property": 93128,
+    "Apartment Property": 105333
+  },
+  {
+    "Period": "2006 Q1",
+    "Detached Property": 188669,
+    "Semi-Detached Property": 123416,
+    "Terrace Property": 96062,
+    "Apartment Property": 111145
+  },
+  {
+    "Period": "2006 Q2",
+    "Detached Property": 201644,
+    "Semi-Detached Property": 135697,
+    "Terrace Property": 108063,
+    "Apartment Property": 117168
+  },
+  {
+    "Period": "2006 Q3",
+    "Detached Property": 222695,
+    "Semi-Detached Property": 150408,
+    "Terrace Property": 121910,
+    "Apartment Property": 133113
+  },
+  {
+    "Period": "2006 Q4",
+    "Detached Property": 245252,
+    "Semi-Detached Property": 168931,
+    "Terrace Property": 137713,
+    "Apartment Property": 152563
+  },
+  {
+    "Period": "2007 Q1",
+    "Detached Property": 267678,
+    "Semi-Detached Property": 186864,
+    "Terrace Property": 154256,
+    "Apartment Property": 168111
+  },
+  {
+    "Period": "2007 Q2",
+    "Detached Property": 305404,
+    "Semi-Detached Property": 206097,
+    "Terrace Property": 160884,
+    "Apartment Property": 179936
+  },
+  {
+    "Period": "2007 Q3",
+    "Detached Property": 332718,
+    "Semi-Detached Property": 209688,
+    "Terrace Property": 164232,
+    "Apartment Property": 179542
+  },
+  {
+    "Period": "2007 Q4",
+    "Detached Property": 314061,
+    "Semi-Detached Property": 198459,
+    "Terrace Property": 157828,
+    "Apartment Property": 176930
+  },
+  {
+    "Period": "2008 Q1",
+    "Detached Property": 285012,
+    "Semi-Detached Property": 185214,
+    "Terrace Property": 145721,
+    "Apartment Property": 172588
+  },
+  {
+    "Period": "2008 Q2",
+    "Detached Property": 265410,
+    "Semi-Detached Property": 177815,
+    "Terrace Property": 133949,
+    "Apartment Property": 164944
+  },
+  {
+    "Period": "2008 Q3",
+    "Detached Property": 237370,
+    "Semi-Detached Property": 157733,
+    "Terrace Property": 123962,
+    "Apartment Property": 149309
+  },
+  {
+    "Period": "2008 Q4",
+    "Detached Property": 224760,
+    "Semi-Detached Property": 143250,
+    "Terrace Property": 111354,
+    "Apartment Property": 136028
+  },
+  {
+    "Period": "2009 Q1",
+    "Detached Property": 198957,
+    "Semi-Detached Property": 130838,
+    "Terrace Property": 103678,
+    "Apartment Property": 123453
+  },
+  {
+    "Period": "2009 Q2",
+    "Detached Property": 204236,
+    "Semi-Detached Property": 132443,
+    "Terrace Property": 103329,
+    "Apartment Property": 122809
+  },
+  {
+    "Period": "2009 Q3",
+    "Detached Property": 204150,
+    "Semi-Detached Property": 132387,
+    "Terrace Property": 104010,
+    "Apartment Property": 123823
+  },
+  {
+    "Period": "2009 Q4",
+    "Detached Property": 207191,
+    "Semi-Detached Property": 133479,
+    "Terrace Property": 102886,
+    "Apartment Property": 120972
+  },
+  {
+    "Period": "2010 Q1",
+    "Detached Property": 205307,
+    "Semi-Detached Property": 127129,
+    "Terrace Property": 95451,
+    "Apartment Property": 117824
+  },
+  {
+    "Period": "2010 Q2",
+    "Detached Property": 201922,
+    "Semi-Detached Property": 128936,
+    "Terrace Property": 92934,
+    "Apartment Property": 116218
+  },
+  {
+    "Period": "2010 Q3",
+    "Detached Property": 202034,
+    "Semi-Detached Property": 125927,
+    "Terrace Property": 90124,
+    "Apartment Property": 115882
+  },
+  {
+    "Period": "2010 Q4",
+    "Detached Property": 189961,
+    "Semi-Detached Property": 120574,
+    "Terrace Property": 84997,
+    "Apartment Property": 101364
+  },
+  {
+    "Period": "2011 Q1",
+    "Detached Property": 184006,
+    "Semi-Detached Property": 114346,
+    "Terrace Property": 79991,
+    "Apartment Property": 102214
+  },
+  {
+    "Period": "2011 Q2",
+    "Detached Property": 176437,
+    "Semi-Detached Property": 114662,
+    "Terrace Property": 79621,
+    "Apartment Property": 97074
+  },
+  {
+    "Period": "2011 Q3",
+    "Detached Property": 178981,
+    "Semi-Detached Property": 111763,
+    "Terrace Property": 76495,
+    "Apartment Property": 96255
+  },
+  {
+    "Period": "2011 Q4",
+    "Detached Property": 175236,
+    "Semi-Detached Property": 108931,
+    "Terrace Property": 73925,
+    "Apartment Property": 91486
+  },
+  {
+    "Period": "2012 Q1",
+    "Detached Property": 162141,
+    "Semi-Detached Property": 105860,
+    "Terrace Property": 67865,
+    "Apartment Property": 81648
+  },
+  {
+    "Period": "2012 Q2",
+    "Detached Property": 163200,
+    "Semi-Detached Property": 102095,
+    "Terrace Property": 69838,
+    "Apartment Property": 85139
+  },
+  {
+    "Period": "2012 Q3",
+    "Detached Property": 157938,
+    "Semi-Detached Property": 100674,
+    "Terrace Property": 68018,
+    "Apartment Property": 79274
+  },
+  {
+    "Period": "2012 Q4",
+    "Detached Property": 153053,
+    "Semi-Detached Property": 98549,
+    "Terrace Property": 66252,
+    "Apartment Property": 79297
+  },
+  {
+    "Period": "2013 Q1",
+    "Detached Property": 152823,
+    "Semi-Detached Property": 97337,
+    "Terrace Property": 63755,
+    "Apartment Property": 73121
+  },
+  {
+    "Period": "2013 Q2",
+    "Detached Property": 156013,
+    "Semi-Detached Property": 97504,
+    "Terrace Property": 65853,
+    "Apartment Property": 74616
+  },
+  {
+    "Period": "2013 Q3",
+    "Detached Property": 157931,
+    "Semi-Detached Property": 99945,
+    "Terrace Property": 67648,
+    "Apartment Property": 74224
+  },
+  {
+    "Period": "2013 Q4",
+    "Detached Property": 157398,
+    "Semi-Detached Property": 99875,
+    "Terrace Property": 68263,
+    "Apartment Property": 79974
+  },
+  {
+    "Period": "2014 Q1",
+    "Detached Property": 159004,
+    "Semi-Detached Property": 102054,
+    "Terrace Property": 69893,
+    "Apartment Property": 79394
+  },
+  {
+    "Period": "2014 Q2",
+    "Detached Property": 164697,
+    "Semi-Detached Property": 105351,
+    "Terrace Property": 72170,
+    "Apartment Property": 81723
+  },
+  {
+    "Period": "2014 Q3",
+    "Detached Property": 165945,
+    "Semi-Detached Property": 107582,
+    "Terrace Property": 73904,
+    "Apartment Property": 85423
+  },
+  {
+    "Period": "2014 Q4",
+    "Detached Property": 169123,
+    "Semi-Detached Property": 109038,
+    "Terrace Property": 74778,
+    "Apartment Property": 86727
+  },
+  {
+    "Period": "2015 Q1",
+    "Detached Property": 168049,
+    "Semi-Detached Property": 109217,
+    "Terrace Property": 75454,
+    "Apartment Property": 87387
+  },
+  {
+    "Period": "2015 Q2",
+    "Detached Property": 173147,
+    "Semi-Detached Property": 112980,
+    "Terrace Property": 77196,
+    "Apartment Property": 91296
+  },
+  {
+    "Period": "2015 Q3",
+    "Detached Property": 177887,
+    "Semi-Detached Property": 115958,
+    "Terrace Property": 80115,
+    "Apartment Property": 93018
+  },
+  {
+    "Period": "2015 Q4",
+    "Detached Property": 180308,
+    "Semi-Detached Property": 115467,
+    "Terrace Property": 81625,
+    "Apartment Property": 93433
+  },
+  {
+    "Period": "2016 Q1",
+    "Detached Property": 180599,
+    "Semi-Detached Property": 113947,
+    "Terrace Property": 81538,
+    "Apartment Property": 97810
+  },
+  {
+    "Period": "2016 Q2",
+    "Detached Property": 183812,
+    "Semi-Detached Property": 119615,
+    "Terrace Property": 85686,
+    "Apartment Property": 100613
+  }
+]

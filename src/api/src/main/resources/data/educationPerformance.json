@@ -1,0 +1,65 @@
+[
+  {
+    "Year": 2009,
+    "GCSE - Non-Grammar": 54.1,
+    "GCSE - Grammar": 96.8,
+    "GCSE - All": 71.2,
+    "A-level - Non-Grammar": 41.4,
+    "A-level - Grammar": 75.1,
+    "A-level - All": 64
+  },
+  {
+    "Year": 2010,
+    "GCSE - Non-Grammar": 59.1,
+    "GCSE - Grammar": 96.8,
+    "GCSE - All": 74.3,
+    "A-level - Non-Grammar": 43,
+    "A-level - Grammar": 77.7,
+    "A-level - All": 65.3
+  },
+  {
+    "Year": 2011,
+    "GCSE - Non-Grammar": 60.1,
+    "GCSE - Grammar": 97,
+    "GCSE - All": 75.3,
+    "A-level - Non-Grammar": 44.2,
+    "A-level - Grammar": 76.5,
+    "A-level - All": 64.5
+  },
+  {
+    "Year": 2012,
+    "GCSE - Non-Grammar": 63.9,
+    "GCSE - Grammar": 97,
+    "GCSE - All": 77.8,
+    "A-level - Non-Grammar": 44.9,
+    "A-level - Grammar": 76.7,
+    "A-level - All": 64.8
+  },
+  {
+    "Year": 2013,
+    "GCSE - Non-Grammar": 67.2,
+    "GCSE - Grammar": 97.3,
+    "GCSE - All": 79.6,
+    "A-level - Non-Grammar": 45.4,
+    "A-level - Grammar": 77.2,
+    "A-level - All": 65.2
+  },
+  {
+    "Year": 2014,
+    "GCSE - Non-Grammar": 70.6,
+    "GCSE - Grammar": 97.2,
+    "GCSE - All": 81.8,
+    "A-level - Non-Grammar": 47.7,
+    "A-level - Grammar": 75.7,
+    "A-level - All": 65
+  },
+  {
+    "Year": 2015,
+    "GCSE - Non-Grammar": 72,
+    "GCSE - Grammar": 97.8,
+    "GCSE - All": 82.8,
+    "A-level - Non-Grammar": 47.8,
+    "A-level - Grammar": 77,
+    "A-level - All": 64.9
+  }
+]

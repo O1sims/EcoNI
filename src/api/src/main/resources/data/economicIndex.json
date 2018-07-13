@@ -1,0 +1,371 @@
+[
+  {
+    "Period": "2006 Q1",
+    "Composite Economic Index": 108.8,
+    "Private sector": 111,
+    "Public sector": 103.2,
+    "Services": 110.5,
+    "Production": 99.1,
+    "Construction": 159
+  },
+  {
+    "Period": "2006 Q2",
+    "Composite Economic Index": 109.2,
+    "Private sector": 111.7,
+    "Public sector": 103.1,
+    "Services": 110.9,
+    "Production": 100.8,
+    "Construction": 159.6
+  },
+  {
+    "Period": "2006 Q3",
+    "Composite Economic Index": 110.5,
+    "Private sector": 113.3,
+    "Public sector": 103.2,
+    "Services": 112.4,
+    "Production": 101,
+    "Construction": 168.1
+  },
+  {
+    "Period": "2006 Q4",
+    "Composite Economic Index": 111.1,
+    "Private sector": 114.2,
+    "Public sector": 103,
+    "Services": 113.7,
+    "Production": 101.2,
+    "Construction": 167.5
+  },
+  {
+    "Period": "2007 Q1",
+    "Composite Economic Index": 110.6,
+    "Private sector": 113.7,
+    "Public sector": 102.9,
+    "Services": 113.1,
+    "Production": 101.4,
+    "Construction": 163.5
+  },
+  {
+    "Period": "2007 Q2",
+    "Composite Economic Index": 111.1,
+    "Private sector": 114.2,
+    "Public sector": 103.1,
+    "Services": 113.1,
+    "Production": 102.1,
+    "Construction": 169.2
+  },
+  {
+    "Period": "2007 Q3",
+    "Composite Economic Index": 110.8,
+    "Private sector": 114,
+    "Public sector": 102.5,
+    "Services": 112.7,
+    "Production": 105.4,
+    "Construction": 161.6
+  },
+  {
+    "Period": "2007 Q4",
+    "Composite Economic Index": 110.1,
+    "Private sector": 113.1,
+    "Public sector": 102.7,
+    "Services": 111.2,
+    "Production": 107.1,
+    "Construction": 154.8
+  },
+  {
+    "Period": "2008 Q1",
+    "Composite Economic Index": 109.7,
+    "Private sector": 112.5,
+    "Public sector": 102.7,
+    "Services": 111.3,
+    "Production": 106.2,
+    "Construction": 148.8
+  },
+  {
+    "Period": "2008 Q2",
+    "Composite Economic Index": 110.1,
+    "Private sector": 113.2,
+    "Public sector": 102,
+    "Services": 111.7,
+    "Production": 106.5,
+    "Construction": 155.5
+  },
+  {
+    "Period": "2008 Q3",
+    "Composite Economic Index": 107.1,
+    "Private sector": 109.5,
+    "Public sector": 101.1,
+    "Services": 108.6,
+    "Production": 103.9,
+    "Construction": 143.6
+  },
+  {
+    "Period": "2008 Q4",
+    "Composite Economic Index": 106.2,
+    "Private sector": 106.7,
+    "Public sector": 104.8,
+    "Services": 106.3,
+    "Production": 98.7,
+    "Construction": 141.2
+  },
+  {
+    "Period": "2009 Q1",
+    "Composite Economic Index": 105,
+    "Private sector": 105.1,
+    "Public sector": 104.8,
+    "Services": 105.4,
+    "Production": 94.9,
+    "Construction": 138.7
+  },
+  {
+    "Period": "2009 Q2",
+    "Composite Economic Index": 104.2,
+    "Private sector": 103.9,
+    "Public sector": 105.1,
+    "Services": 104.8,
+    "Production": 92.4,
+    "Construction": 136.6
+  },
+  {
+    "Period": "2009 Q3",
+    "Composite Economic Index": 104.4,
+    "Private sector": 104,
+    "Public sector": 105.4,
+    "Services": 105.5,
+    "Production": 91.3,
+    "Construction": 135.7
+  },
+  {
+    "Period": "2009 Q4",
+    "Composite Economic Index": 105.5,
+    "Private sector": 105.7,
+    "Public sector": 105.2,
+    "Services": 107.7,
+    "Production": 92.2,
+    "Construction": 133.1
+  },
+  {
+    "Period": "2010 Q1",
+    "Composite Economic Index": 105.1,
+    "Private sector": 105.3,
+    "Public sector": 104.4,
+    "Services": 107.5,
+    "Production": 93.5,
+    "Construction": 125.5
+  },
+  {
+    "Period": "2010 Q2",
+    "Composite Economic Index": 103.9,
+    "Private sector": 104,
+    "Public sector": 103.6,
+    "Services": 106,
+    "Production": 93.6,
+    "Construction": 121.2
+  },
+  {
+    "Period": "2010 Q3",
+    "Composite Economic Index": 102.2,
+    "Private sector": 102.1,
+    "Public sector": 102.7,
+    "Services": 102.9,
+    "Production": 94.2,
+    "Construction": 121.8
+  },
+  {
+    "Period": "2010 Q4",
+    "Composite Economic Index": 100.9,
+    "Private sector": 100.3,
+    "Public sector": 102.5,
+    "Services": 99.8,
+    "Production": 97.5,
+    "Construction": 113.9
+  },
+  {
+    "Period": "2011 Q1",
+    "Composite Economic Index": 100.3,
+    "Private sector": 99.8,
+    "Public sector": 101.9,
+    "Services": 99,
+    "Production": 98.6,
+    "Construction": 109.6
+  },
+  {
+    "Period": "2011 Q2",
+    "Composite Economic Index": 101.4,
+    "Private sector": 101.5,
+    "Public sector": 101.3,
+    "Services": 101.9,
+    "Production": 100.6,
+    "Construction": 101.4
+  },
+  {
+    "Period": "2011 Q3",
+    "Composite Economic Index": 101.6,
+    "Private sector": 102,
+    "Public sector": 100.6,
+    "Services": 101.8,
+    "Production": 102.8,
+    "Construction": 103.5
+  },
+  {
+    "Period": "2011 Q4",
+    "Composite Economic Index": 101.8,
+    "Private sector": 102.4,
+    "Public sector": 100,
+    "Services": 102.1,
+    "Production": 103.4,
+    "Construction": 104.1
+  },
+  {
+    "Period": "2012 Q1",
+    "Composite Economic Index": 101.7,
+    "Private sector": 102.2,
+    "Public sector": 100.2,
+    "Services": 101.2,
+    "Production": 102,
+    "Construction": 111.3
+  },
+  {
+    "Period": "2012 Q2",
+    "Composite Economic Index": 99.8,
+    "Private sector": 99.7,
+    "Public sector": 99.8,
+    "Services": 99.6,
+    "Production": 100.8,
+    "Construction": 97.9
+  },
+  {
+    "Period": "2012 Q3",
+    "Composite Economic Index": 99.3,
+    "Private sector": 99.1,
+    "Public sector": 99.8,
+    "Services": 99.6,
+    "Production": 99.1,
+    "Construction": 95.1
+  },
+  {
+    "Period": "2012 Q4",
+    "Composite Economic Index": 99.3,
+    "Private sector": 99,
+    "Public sector": 100.2,
+    "Services": 99.6,
+    "Production": 98,
+    "Construction": 95.8
+  },
+  {
+    "Period": "2013 Q1",
+    "Composite Economic Index": 99.8,
+    "Private sector": 99.6,
+    "Public sector": 100.4,
+    "Services": 99.8,
+    "Production": 99.6,
+    "Construction": 96.3
+  },
+  {
+    "Period": "2013 Q2",
+    "Composite Economic Index": 99.6,
+    "Private sector": 99.3,
+    "Public sector": 100.4,
+    "Services": 100.1,
+    "Production": 99.2,
+    "Construction": 90.9
+  },
+  {
+    "Period": "2013 Q3",
+    "Composite Economic Index": 100.7,
+    "Private sector": 100.8,
+    "Public sector": 100.5,
+    "Services": 101.3,
+    "Production": 102.3,
+    "Construction": 92.9
+  },
+  {
+    "Period": "2013 Q4",
+    "Composite Economic Index": 100.2,
+    "Private sector": 100.8,
+    "Public sector": 98.5,
+    "Services": 101.6,
+    "Production": 102.8,
+    "Construction": 86.8
+  },
+  {
+    "Period": "2014 Q1",
+    "Composite Economic Index": 100.4,
+    "Private sector": 101.3,
+    "Public sector": 97.9,
+    "Services": 101.8,
+    "Production": 102.3,
+    "Construction": 91.2
+  },
+  {
+    "Period": "2014 Q2",
+    "Composite Economic Index": 100.8,
+    "Private sector": 101.8,
+    "Public sector": 98,
+    "Services": 102.2,
+    "Production": 103.5,
+    "Construction": 91.6
+  },
+  {
+    "Period": "2014 Q3",
+    "Composite Economic Index": 100.6,
+    "Private sector": 101.5,
+    "Public sector": 98.1,
+    "Services": 101.8,
+    "Production": 103.2,
+    "Construction": 92.9
+  },
+  {
+    "Period": "2014 Q4",
+    "Composite Economic Index": 101.5,
+    "Private sector": 102.6,
+    "Public sector": 98.3,
+    "Services": 102.5,
+    "Production": 103.8,
+    "Construction": 98
+  },
+  {
+    "Period": "2015 Q1",
+    "Composite Economic Index": 102.3,
+    "Private sector": 103.9,
+    "Public sector": 97.9,
+    "Services": 102.5,
+    "Production": 105.7,
+    "Construction": 107.6
+  },
+  {
+    "Period": "2015 Q2",
+    "Composite Economic Index": 102.7,
+    "Private sector": 104.6,
+    "Public sector": 97.2,
+    "Services": 103.5,
+    "Production": 105.6,
+    "Construction": 109.7
+  },
+  {
+    "Period": "2015 Q3",
+    "Composite Economic Index": 102.1,
+    "Private sector": 104,
+    "Public sector": 96.5,
+    "Services": 103.9,
+    "Production": 103.8,
+    "Construction": 104.4
+  },
+  {
+    "Period": "2015 Q4",
+    "Composite Economic Index": 102.6,
+    "Private sector": 104.9,
+    "Public sector": 95.9,
+    "Services": 104.3,
+    "Production": 105.5,
+    "Construction": 107.4
+  },
+  {
+    "Period": "2016 Q1",
+    "Composite Economic Index": 103,
+    "Private sector": 105.5,
+    "Public sector": 95.7,
+    "Services": 104.9,
+    "Production": 105.2,
+    "Construction": 110.7
+  }
+]
