@@ -1,0 +1,87 @@
+[
+  {
+    "year": 1998,
+    "totalInward": 15493,
+    "totalOutward": 6118
+  },
+  {
+    "year": 1999,
+    "totalInward": 16399,
+    "totalOutward": 6432
+  },
+  {
+    "year": 2000,
+    "totalInward": 15418,
+    "totalOutward": 6017
+  },
+  {
+    "year": 2001,
+    "totalInward": 14955,
+    "totalOutward": 6212
+  },
+  {
+    "year": 2002,
+    "totalInward": 14736,
+    "totalOutward": 6627
+  },
+  {
+    "year": 2003,
+    "totalInward": 15250,
+    "totalOutward": 6724
+  },
+  {
+    "year": 2004,
+    "totalInward": 16322,
+    "totalOutward": 7070
+  },
+  {
+    "year": 2005,
+    "totalInward": 16558,
+    "totalOutward": 7497
+  },
+  {
+    "year": 2006,
+    "totalInward": 17143,
+    "totalOutward": 7342
+  },
+  {
+    "year": 2007,
+    "totalInward": 16512,
+    "totalOutward": 7356
+  },
+  {
+    "year": 2008,
+    "totalInward": 15860,
+    "totalOutward": 7638
+  },
+  {
+    "year": 2009,
+    "totalInward": 13743,
+    "totalOutward": 7043
+  },
+  {
+    "year": 2010,
+    "totalInward": 14837,
+    "totalOutward": 8074
+  },
+  {
+    "year": 2011,
+    "totalInward": 14465,
+    "totalOutward": 8787
+  },
+  {
+    "year": 2012,
+    "totalInward": 15158,
+    "totalOutward": 8398
+  },
+  {
+    "year": 2013,
+    "totalInward": 16115,
+    "totalOutward": 9207
+  },
+  {
+    "year": 2014,
+    "totalInward": 15742,
+    "totalOutward": 9331
+  }
+]
