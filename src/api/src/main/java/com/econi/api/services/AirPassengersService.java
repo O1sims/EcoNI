@@ -24,5 +24,9 @@ public class AirPassengersService {
     public Iterable<AirPassengers> save(List<AirPassengers> airPassengers) {
         return airPassengersRepository.saveAll(airPassengers);
     }
+    
+    public void dropCollection() {
+    	airPassengersRepository.deleteAll();
+    }
  
 }

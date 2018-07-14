@@ -24,5 +24,9 @@ public class PortTrafficService {
     public Iterable<PortTraffic> save(List<PortTraffic> portTraffic) {
         return portTrafficRepository.saveAll(portTraffic);
     }
+    
+    public void dropCollection() {
+    	portTrafficRepository.deleteAll();
+    }
  
 }
