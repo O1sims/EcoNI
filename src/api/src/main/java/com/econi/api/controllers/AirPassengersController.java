@@ -20,17 +20,31 @@ public class AirPassengersController {
   @Autowired
   private AirPassengersRepository repository;
 
-  @RequestMapping(value = "/", method = RequestMethod.GET)
+  @RequestMapping(
+		  value = "/", 
+		  method = RequestMethod.GET)
   public List<AirPassengers> getAllcrimeLevels() {
     return repository.findAll();
   }
+  
+  @RequestMapping(
+		  value = "/", 
+		  method = RequestMethod.POST)
+  public void insertAirPassengers(@Valid
+		  @RequestBody List<AirPassengers> airPassengers) {
+    repository.saveAll(airPassengers);
+  }
 
-  @RequestMapping(value = "/{year}", method = RequestMethod.GET)
+  @RequestMapping(
+		  value = "/{year}", 
+		  method = RequestMethod.GET)
   public List<AirPassengers> getcrimeLevelByYear(@PathVariable("year") Integer year) {
     return repository.findByYear(year);
   }
   
-  @RequestMapping(value = "/{year}", method = RequestMethod.PUT)
+  @RequestMapping(
+		  value = "/{year}", 
+		  method = RequestMethod.PUT)
   public void modifyCrimeLevelByYear(@PathVariable("year") Integer year, @Valid
   @RequestBody AirPassengers crimeLevel) {
     repository.save(crimeLevel);

@@ -20,17 +20,31 @@ public class CrimeLevelController {
   @Autowired
   private CrimeLevelRepository repository;
 
-  @RequestMapping(value = "/", method = RequestMethod.GET)
+  @RequestMapping(
+		  value = "/", 
+		  method = RequestMethod.GET)
   public List<CrimeLevel> getAllcrimeLevels() {
     return repository.findAll();
   }
+  
+  @RequestMapping(
+		  value = "/", 
+		  method = RequestMethod.POST)
+  public void insertCrimeLevels(@Valid
+		  @RequestBody List<CrimeLevel> crimeLevels) {
+    repository.saveAll(crimeLevels);
+  }
 
-  @RequestMapping(value = "/{year}", method = RequestMethod.GET)
+  @RequestMapping(
+		  value = "/{year}", 
+		  method = RequestMethod.GET)
   public List<CrimeLevel> getcrimeLevelByYear(@PathVariable("year") Integer year) {
     return repository.findByYear(year);
   }
   
-  @RequestMapping(value = "/{year}", method = RequestMethod.PUT)
+  @RequestMapping(
+		  value = "/{year}", 
+		  method = RequestMethod.PUT)
   public void modifyCrimeLevelByYear(@PathVariable("year") Integer year, @Valid
   @RequestBody CrimeLevel crimeLevel) {
     repository.save(crimeLevel);
