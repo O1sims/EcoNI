@@ -4,7 +4,6 @@ VOLUME /tmp
 
 RUN mkdir /econi
 WORKDIR /econi
-
 ADD target/api-0.0.1-SNAPSHOT.jar /econi
 
-EXPOSE 8099
+EXPOSE 9000

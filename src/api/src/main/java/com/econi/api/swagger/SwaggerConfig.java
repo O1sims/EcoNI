@@ -21,12 +21,12 @@ public class SwaggerConfig {
       "Owen Sims", "https://github.com/O1sims/EcoNI", "sims.owen@gmail.com");
 
   public static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
-      "EcoNI API", "Swagger documentation for EcoNI", "1.0",
+      "EcoNI API", "Swagger documentation for EcoNI endpoints", "1.0",
       "urn:tos", DEFAULT_CONTACT,
       "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0");
 
   private static final Set<String> DEFAULT_PRODUCES_AND_CONSUMES =
-      new HashSet<String>(Arrays.asList( 
+      new HashSet<String>(Arrays.asList(
     		  "application/json",
     		  "application/json"));
 
