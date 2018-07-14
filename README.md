@@ -17,7 +17,7 @@ Currently, the application is built locally and the resulting JAR is passed into
 cd EcoNI
 bash build.sh all
 ```
-This will run tests and generate the JAR, then transfer it into a Docker container. The `build.sh` file has multiple options to choose from.
+This will run tests, generate the JAR and then transfer it into a Docker container. The `build.sh` file has multiple options to choose from.
 
 ## Running the application
 
@@ -27,9 +27,9 @@ bash build.sh up
 ```
 Likewise, the application can be brought down with `bash build.sh down`.
 
-By default, the main EcoNI application is accessible on port `3000`, the API and backend components are on port `9000`, the Mongo database is run on port `27017`. The `docker-compose.yml` can be altered to allow these services to run on different ports. Swagger API documentation can be found at `localhost:9000/api/swagger/`.
+By default, the main EcoNI application is accessible on port `3000`, the API and backend components are on port `9000`, the Mongo database is run on port `27017`. Swagger API documentation can be found at `localhost:9000/api/swagger-ui.html`.
 
-Environmental variables for the application can be changed in the `docker-compose.yml` file.
+The `docker-compose.yml` can be altered to allow these services to run on different ports. Likewise, environmental variables for the application can also be changed in the `docker-compose.yml` file.
 
 ## Contact
 
