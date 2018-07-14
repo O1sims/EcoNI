@@ -1,0 +1,23 @@
+version: '2'
+services:
+  econi:
+    restart: unless-stopped
+    image: econi:latest
+    container_name: econi
+    command: java -jar /econi/api-0.0.1-SNAPSHOT.jar
+    ports:
+      - "8099:8099"
+    depends_on:
+      - mongodb
+    environment:
+      - ECONI_PORT=8099
+      - MONGO_HOST=mongodb
+      - MONGO_PORT=27017
+      - MONGO_DB=EcoNI
+
+  mongodb:
+    restart: unless-stopped
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
