@@ -1,0 +1,7 @@
+
+<div class="ui cards centered">
+	<dataset-card ng-repeat="dataset in datasets_filtered =(datasets | filter:datasetSearch)"></dataset-card>
+	<div class="ui segment basic" ng-if="datasets_filtered.length==0">
+		<h2 class="ui header grey">Sorry. No results!</h2>
+	</div>
+</div>

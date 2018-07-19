@@ -1,0 +1,17 @@
+<div class="ui centered grid">
+  <div class="center aligned column">
+      <div class="ui compact stackable menu">
+          <homepage-search></homepage-search>
+        <div class="item">
+          <h5>
+            Found {{ datasets_filtered.length }} datasets
+          </h5>
+        </div>
+        <a class="ui item" ng-click="clearSearch()" ng-class="{ 'disabled': !datasetSearch}" >
+          <i class="remove icon"></i>
+          Clear
+        </a>
+      </div>
+      
+  </div>     
+</div>

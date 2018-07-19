@@ -1,0 +1,43 @@
+<div class="ui container">
+<div class="ui segment basic center aligned">
+	<h2 class="ui center aligned header">
+	  <div class="content">
+	    <simple-dropdown title="{{dataset.meta.name}}" ng-model="simple_dropdown">
+	    	<!-- <div class="ui icon search input">
+		      <i class="search icon"></i>
+		      <input type="text" placeholder="Search datasets...">
+		    </div>
+		    <div class="divider"></div>
+			<div class="header">
+		      <i class="tags icon"></i>
+		      Economy
+		    </div> -->
+	    	<simple-dropdown-group ng-repeat="dataset in datasets" ng-click="datasetGo(dataset, currentTab())">{{dataset.meta.name}}
+<!-- 			    <i class="ui ship grey icon"></i>
+			      <div class="content">
+			        <div class="dropdown-header">{{dataset.meta.name}}</div>
+			       <div class="dropdown-description">{{dataset.meta.description}}</div> 
+			      </div> -->
+	    	</simple-dropdown-group>
+	    </simple-dropdown>
+	    <div class="sub header">{{dataset.meta.description}}</div>
+	  </div>
+	</h2>
+</div>
+
+<dataset-graph></dataset-graph>
+</div>
+
+
+<div class="ui top attached tabular menu">
+	<div class="ui container">
+	  <a class="item" ng-class="{ active: activeTab('overview', currentTab()) }" ng-click="go(datasetId(), 'overview')"><i class="search icon"></i> Overview</a>
+	  <a class="item" ng-class="{ active: activeTab('data', currentTab()) }" ng-click="go(datasetId(), 'data')"><i class="table icon"></i> Data</a>
+	  <a class="item" ng-class="{ active: activeTab('integrate', currentTab()) }" ng-click="go(datasetId(), 'integrate')"><i class="configure icon"></i> Integrate</a>
+	 </div>
+</div>
+
+
+<dataset-overview></dataset-overview>
+<dataset-data-table></dataset-data-table>
+<dataset-integrate></dataset-integrate>
