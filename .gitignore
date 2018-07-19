@@ -24,3 +24,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+# GUI
+src/webserver/gui/node_modules/
