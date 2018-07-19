@@ -16,10 +16,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.econi.api.models.CrimeLevel;
 import com.econi.api.models.PortTraffic;
 import com.econi.api.models.AirPassengers;
+import com.econi.api.models.EconomicIndex;
 
 import com.econi.api.services.CrimeLevelService;
 import com.econi.api.services.PortTrafficService;
 import com.econi.api.services.AirPassengersService;
+import com.econi.api.services.EconomicIndexService;
+
 
 @SpringBootApplication
 public class Application {
@@ -33,7 +36,8 @@ public class Application {
     		ApplicationContext ctx, 
     		CrimeLevelService crimeLevelService,
     		PortTrafficService portTrafficService,
-    		AirPassengersService airPassengersService) {
+    		AirPassengersService airPassengersService,
+    		EconomicIndexService economicIndexService) {
         return args -> {
             System.out.println("Saving economic data...");
             ObjectMapper mapper = new ObjectMapper();
@@ -68,6 +72,17 @@ public class Application {
 				System.out.println("Crime levels saved!");
 			} catch (IOException e) {
 				System.out.println("Unable to save crime level data: " + e.getMessage());
+			};
+			
+			TypeReference<List<EconomicIndex>> economicIndexTypeReference = new TypeReference<List<EconomicIndex>>(){};
+			InputStream economicIndexInputStream = TypeReference.class.getResourceAsStream("/data/economicIndexs.json");
+			try {
+				List<EconomicIndex> economicIndexs = mapper.readValue(economicIndexInputStream, economicIndexTypeReference);
+				economicIndexService.dropCollection();
+				economicIndexService.save(economicIndexs);
+				System.out.println("Economic indicies saved!");
+			} catch (IOException e) {
+				System.out.println("Unable to save economic indicies: " + e.getMessage());
 			};
         };
     }
